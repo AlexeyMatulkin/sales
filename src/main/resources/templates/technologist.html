@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:include="fragments/base :: head">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div th:replace="fragments/base :: header"></div>
+<div class="btn-group">
+    <a href="/product" type="button" class="btn btn-success">All products</a>
+    <a href="/detail/catalog" type="button" class="btn btn-success">All details</a>
+    <a href="/stage" type="button" class="btn btn-success">All stages</a>
+</div>
+<div th:replace="fragments/base :: footer"></div>
+</body>
+</html>
